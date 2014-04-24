@@ -1,0 +1,75 @@
+% -----------------------------------------------
+% Template for ISMIR 2014
+% (based on earlier ISMIR templates)
+% -----------------------------------------------
+
+\documentclass{article}
+\usepackage{graphicx,psfrag,pstricks,epsf,url}
+\usepackage{ismir2014,amsmath,cite}
+\usepackage{subfigure}
+\usepackage{amsfonts}
+% For citations
+%\usepackage{natbib}
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% Title.
+% ------
+\title{RNN-based Music Language Models for Improving Automatic Music Transcription}
+
+% Single address
+% To use with only one author or several with the same address
+% ---------------
+%\oneauthor
+% {Names should be omitted for double-blind reviewing}
+% {Affiliations should be omitted for double-blind reviewing}
+
+% Two addresses
+% --------------
+%\twoauthors
+%  {First author} {School \\ Department}
+%  {Second author} {Company \\ Address}
+
+% Three addresses
+% --------------
+\threeauthors
+  {First author} {Affiliation1 \\ {\tt author1@ismir.edu}}
+  {Second author} {\bf Retain these fake authors in\\\bf submission to preserve the formatting}
+  {Third author} {Affiliation3 \\ {\tt author3@ismir.edu}}
+
+% Four addresses
+% --------------
+%\fourauthors
+%  {First author} {Affiliation1 \\ {\tt author1@ismir.edu}}
+%  {Second author}{Affiliation2 \\ {\tt author2@ismir.edu}}
+%  {Third author} {Affiliation3 \\ {\tt author3@ismir.edu}}
+%  {Fourth author} {Affiliation4 \\ {\tt author4@ismir.edu}}
+
+\begin{document}
+%
+\maketitle
+%
+\begin{abstract}
+In this paper, we investigate the use of Music Language Models (MLMs) for improving Automatic Music Transcription (AMT) performance. AMT is the process of converting an acoustic music signal into a symbolic notation, and is considered to be a fundamental problem in music signal processing. The MLMs are trained on sequences of symbolic polyphonic music. We train Recurrent Neural Network (RNN)-based models, as they are capable of capturing complex temporal structure present in symbolic music data. Similar to the function of language models in automatic speech recognition, we use the MLMs to generate a prior probability for the occurrence of a sequence. The acoustic AMT model is based on probabilistic latent component analysis, and prior information from the MLM is incorporated into the transcription framework using Dirichlet priors. We test our hybrid models on a dataset of multiple-instrument polyphonic music and report a significant 3\% improvement in terms of F-measure, when compared to using an acoustic-only model.
+\end{abstract}
+%
+
+
+\input{introduction.tex}
+
+\input{transcription.tex}
+
+\input{prediction.tex}
+
+\input{combination.tex}
+
+\input{evaluation.tex}
+
+\input{conclusions.tex}
+
+\bibliography{bibliography}
+
+%\bibliography{ismir2014template}
+
+\end{document}
