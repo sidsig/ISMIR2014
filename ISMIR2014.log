@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.4.30)  24 APR 2014 14:00
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.4.30)  28 APR 2014 16:04
 entering extended mode
  %&-line parsing enabled.
 **ISMIR2014.tex
@@ -324,118 +324,40 @@ le-
  []
 
 (./introduction.tex
-
-LaTeX Warning: Citation `Benetos2013b' on page 1 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Li1999' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Smaragdis2006' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Bertin2009' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Benetos2012' on page 1 undefined on input line 6.
-
-
-Overfull \hbox (17.34439pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/10 tic coun-ter-part, prob-a-bilis-tic la-tent com-po-nent anal-y-
-sis (PLCA)
+Overfull \hbox (1.29474pt too wide) in paragraph at lines 4--6
+\OT1/ptm/m/n/10 plates (that typ-i-cally cor-re-spond to mu-si-cal notes) and c
+om-
  []
 
 
-Overfull \hbox (1.2552pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/10 sian com-po-nents in har-monic po-si-tions. Bene-tos and Dixon
- []
-
-
-Overfull \hbox (0.8545pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/10 sup-ports the tran-scrip-tion of multiple-instrument mu-sic and
-
- []
-
-
-LaTeX Warning: Citation `Nam2011' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation `Bock2012' on page 1 undefined on input line 8.
-
-
-Overfull \hbox (1.04538pt too wide) in paragraph at lines 8--9
+Overfull \hbox (1.04538pt too wide) in paragraph at lines 7--8
 \OT1/ptm/m/n/10 ma-chines and was ap-plied to pi-ano mu-sic. B[]ock and Schedl
  []
 
 
-LaTeX Warning: Citation `Rabiner1993' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Boulanger-Lewandowski2012' on page 1 undefined on inpu
-t line 10.
-
-
-LaTeX Warning: Citation `Boulanger-Lewandowski2013' on page 1 undefined on inpu
-t line 10.
-
-
-LaTeX Warning: Citation `Ewert2012' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `Ewert2011' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Senturk2013' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Benetos2013' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Duan2010' on page 1 undefined on input line 13.
-
-
-Overfull \hbox (2.88528pt too wide) in paragraph at lines 13--14
+Overfull \hbox (2.88528pt too wide) in paragraph at lines 12--13
 \OT1/ptm/m/n/10 boosts tran-scrip-tion ac-cu-racy by +3% on the Bach10 dataset
  []
 
-[1
+) [1
 
 
 
-]) (./transcription.tex
-
-LaTeX Warning: Citation `Shashanka2008' on page 2 undefined on input line 4.
-
-
-LaTeX Warning: Citation `Smaragdis2009' on page 2 undefined on input line 4.
-
-
-Overfull \hbox (5.14595pt too wide) in paragraph at lines 4--6
-\OT1/ptm/m/n/10 across log-frequency, in or-der to ac-count for fre-quency mod-
-
- []
-
-
-Overfull \hbox (0.5151pt too wide) in paragraph at lines 7--8
+] (./transcription.tex
+Overfull \hbox (0.5151pt too wide) in paragraph at lines 9--10
 \OT1/ptm/m/n/10 in-stru-ment, and log-frequency shift-ing (which in-di-cates de
 -
  []
 
 
-LaTeX Warning: Citation `Schoerkhuber10' on page 2 undefined on input line 13.
-
-
-Overfull \hbox (7.90593pt too wide) in paragraph at lines 12--14
+Overfull \hbox (7.90593pt too wide) in paragraph at lines 14--16
 \OT1/ptm/m/n/10 for-mu-late a con-vo-lu-tive model across log-frequency. $\OML/
 cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OMS/cmsy/m/n/10 j\OML/cmm/m/
 it/10 p\OT1/cmr/m/n/10 )$
  []
 
 
-LaTeX Warning: Citation `Dempster77' on page 2 undefined on input line 15.
-
-
-Overfull \hbox (7.84186pt too wide) in paragraph at lines 15--16
+Overfull \hbox (7.84186pt too wide) in paragraph at lines 17--18
 []\OT1/ptm/m/n/10 The un-known model pa-ram-e-ters ($\OML/cmm/m/it/10 P[]\OT1/c
 mr/m/n/10 (\OML/cmm/m/it/10 f\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 p\OT1/cmr/m/n/1
 0 )$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\
@@ -445,54 +367,36 @@ m/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/
  []
 
 
-Overfull \hbox (17.50424pt too wide) in paragraph at lines 15--16
+Overfull \hbox (17.50424pt too wide) in paragraph at lines 17--18
 \OT1/ptm/m/n/10 can be it-er-a-tively es-ti-mated us-ing the expectation-maximi
 sation
  []
 
+
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
 )
-Overfull \hbox (5.50496pt too wide) in paragraph at lines 35--62
+Overfull \hbox (5.50496pt too wide) in paragraph at lines 37--62
 \OT1/ptm/m/n/10 After per-form-ing 5-sample me-dian fil-ter-ing for note smooth
 -
  []
 
 (./prediction.tex
-
-LaTeX Warning: Citation `Cemgil2004a' on page 2 undefined on input line 3.
-
-
 Overfull \hbox (11.87492pt too wide) in paragraph at lines 6--7
 \OT1/ptm/m/n/10 prior in-for-ma-tion within the tran-scrip-tion sys-tem. How-
  []
 
-[2]
+
 Overfull \hbox (15.35466pt too wide) in paragraph at lines 17--19
 \OT1/ptm/m/n/10 tem-po-ral de-pen-den-cies, over mul-ti-ple time-scales when tr
 ained
  []
 
-
-LaTeX Warning: Citation `Werbos1990' on page 3 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Bengio1994' on page 3 undefined on input line 26.
-
-
-LaTeX Warning: Citation `Martens2011' on page 3 undefined on input line 28.
-
-
-LaTeX Warning: Citation `bengio2012advances' on page 3 undefined on input line 
-28.
-
-
+[2]
 Overfull \hbox (3.06502pt too wide) in paragraph at lines 28--33
 \OT1/ptm/m/n/10 sec-ond or-der meth-ods like HF, sev-eral mod-i-fi-ca-tions to 
 first-
  []
-
-
-LaTeX Warning: Citation `sutskever2008recurrent' on page 3 undefined on input l
-ine 37.
 
 
 Overfull \hbox (4.56454pt too wide) in paragraph at lines 39--40
@@ -500,49 +404,29 @@ Overfull \hbox (4.56454pt too wide) in paragraph at lines 39--40
 d
  []
 
-
-LaTeX Warning: Citation `Larochelle2011' on page 3 undefined on input line 41.
-
 ) (./combination.tex [3]
 File: figures/FigSystem.eps Graphic file (type eps)
  <figures/FigSystem.eps>) (./evaluation.tex
-
-LaTeX Warning: Citation `Goto2003' on page 4 undefined on input line 5.
-
-
-Overfull \hbox (0.52454pt too wide) in paragraph at lines 5--6
-\OT1/ptm/m/n/10 multi-pitch de-tec-tion ex-per-i-ments. It con-sists of ten rec
-ord-
- []
-
-
 Overfull \hbox (1.49522pt too wide) in paragraph at lines 7--8
 []\OT1/ptm/m/n/10 For train-ing the MLMs we use the Not-ting-ham dataset[],
  []
 
 
-LaTeX Warning: Citation `MIREX' on page 4 undefined on input line 13.
-
-
-Overfull \hbox (1.65004pt too wide) in paragraph at lines 19--21
-\OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 N[]$ \OT1/ptm/m/n/10 is the num-ber of 
-cor-rectly de-tected pitches, $\OML/cmm/m/it/10 N[]$
+Overfull \hbox (11.70572pt too wide) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/10 For com-par-i-son with the method of [13] (where the Bach10
  []
 
 [4]
-Overfull \hbox (6.14566pt too wide) in paragraph at lines 49--50
-[]\OT1/ptm/m/n/10 For com-par-i-son with the method of [?] (where the Bach10
- []
-
 File: figures/FigSpectrogram.eps Graphic file (type eps)
-<figures/FigSpectrogram.eps>
+ <figures/FigSpectrogram.eps>
 File: figures/FigTranscription.eps Graphic file (type eps)
- <figures/FigTranscription.eps>) (./conclusions.tex
+ <figures/FigTranscription.eps>)
+(./conclusions.tex
 Overfull \hbox (1.13457pt too wide) in paragraph at lines 3--4
 \OT1/ptm/m/n/10 dataset of multiple-instrument record-ings showed that there
  []
 
-[5])
+)
 Overfull \hbox (3.7252pt too wide) in paragraph at lines 5--70
 []\OT1/ptm/m/n/10 In the cur-rent eval-u-a-tion, the lan-guage mod-els are trai
 ned
@@ -560,42 +444,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 20--24
-[]\OT1/ptm/m/n/10 Emmanouil Bene-tos and Si-mon Dixon.  A shift-
- []
+Underfull \vbox (badness 3189) has occurred while \output is active []
 
-
-Underfull \hbox (badness 5756) in paragraph at lines 49--54
+ [5]
+Underfull \hbox (badness 5756) in paragraph at lines 48--52
 \OT1/ptm/m/n/10 cent.  Mod-el-ing tem-po-ral de-pen-den-cies in high-
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 112--117
-[]\OT1/ptm/m/n/10 J. Nam, , J. Ngiam, H. Lee, and M. Slaney.  A
+Underfull \hbox (badness 3260) in paragraph at lines 54--57
+\OT1/ptm/m/n/10 cent.  High-dimensional se-quence trans-duc-tion.  In
  []
 
-[6]
-Underfull \hbox (badness 1292) in paragraph at lines 142--146
+
+Underfull \hbox (badness 2334) in paragraph at lines 108--113
+[]\OT1/ptm/m/n/10 J. Nam, J. Ngiam, H. Lee, and M. Slaney.  A
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 138--143
 \OT1/ptm/m/n/10 ming'': user-guided sound ex-trac-tion from mono-
  []
 
-) [7
-
-] (./ISMIR2014.aux)
-
-LaTeX Warning: There were undefined references.
-
+) [6] (./ISMIR2014.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3526 strings out of 256217
- 41162 string characters out of 1917095
- 120265 words of memory out of 1500000
- 6725 multiletter control sequences out of 10000+200000
+ 3525 strings out of 256217
+ 41154 string characters out of 1917095
+ 122265 words of memory out of 1500000
+ 6724 multiletter control sequences out of 10000+200000
  18865 words of font info for 62 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 30i,14n,37p,1281b,365s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 30i,14n,37p,1163b,365s stack positions out of 5000i,500n,6000p,200000b,15000s
 
-Output written on ISMIR2014.dvi (7 pages, 51520 bytes).
+Output written on ISMIR2014.dvi (6 pages, 48468 bytes).

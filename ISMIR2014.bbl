@@ -4,59 +4,56 @@
 Music {I}nformation {R}etrieval {E}valuation e{X}change ({MIREX}).
 \newblock \url{http://music-ir.org/mirexwiki/}.
 
+\bibitem{Benetos2013}
+E.~Benetos, S.~Cherla, and T.~Weyde.
+\newblock An effcient shiftinvariant model for polyphonic music transcription.
+\newblock In {\em 6th International Workshop on Machine Learning and Music},
+  2013.
+
+\bibitem{Benetos2012}
+E.~Benetos and S.~Dixon.
+\newblock A shift-invariant latent variable model for automatic music
+  transcription.
+\newblock {\em Computer Music Journal}, 36(4):81--94, 2012.
+
 \bibitem{Benetos2013b}
 E.~Benetos, S.~Dixon, D.~Giannoulis, H.~Kirchhoff, and A.~Klapuri.
 \newblock Automatic music transcription: challenges and future directions.
 \newblock {\em Journal of Intelligent Information Systems}, 41(3):407--434,
   December 2013.
 
-\bibitem{Benetos2013}
-Emmanouil Benetos, Srikanth Cherla, and Tillman Weyde.
-\newblock An effcient shiftinvariant model for polyphonic music transcription.
-\newblock In {\em 6th International Workshop on Machine Learning and Music},
-  2013.
-
-\bibitem{Benetos2012}
-Emmanouil Benetos and Simon Dixon.
-\newblock A shift-invariant latent variable model for automatic music
-  transcription.
-\newblock {\em Computer Music Journal}, 36(4):81--94, 2012.
-
 \bibitem{bengio2012advances}
-Yoshua Bengio, Nicolas Boulanger-Lewandowski, and Razvan Pascanu.
+Y.~Bengio, N.~Boulanger-Lewandowski, and R.~Pascanu.
 \newblock Advances in optimizing recurrent networks.
-\newblock 2012.
+\newblock In {\em ICASSP}, pages 8624--8628, May 2013.
 
 \bibitem{Bengio1994}
-Yoshua Bengio, Patrice Simard, and Paolo Frasconi.
+Y.~Bengio, P.~Simard, and P.~Frasconi.
 \newblock Learning long-term dependencies with gradient descent is difficult.
-\newblock {\em Neural Networks, IEEE Transactions on}, 5(2):157--166, 1994.
+\newblock {\em IEEE Trans. Neural Networks}, 5(2):157--166, 1994.
 
 \bibitem{Bertin2009}
 N.~Bertin, R.~Badeau, and E.~Vincent.
 \newblock Enforcing harmonicity and smoothness in bayesian non-negative matrix
   factorization applied to polyphonic music transcription.
-\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing},
+\newblock {\em IEEE Trans. Audio, Speech, and Language Processing},
   18(3):538--549, March 2010.
 
 \bibitem{Bock2012}
 S.~Bock and M.~Schedl.
 \newblock Polyphonic piano note transcription with recurrent neural networks.
-\newblock In {\em 2012 IEEE International Conference on Acoustics, Speech and
-  Signal Processing (ICASSP)}, pages 121--124, March 2012.
+\newblock In {\em ICASSP}, pages 121--124, March 2012.
 
 \bibitem{Boulanger-Lewandowski2012}
 N.~Boulanger-Lewandowski, Y.~Bengio, and P.~Vincent.
 \newblock Modeling temporal dependencies in high-dimensional sequences:
   Application to polyphonic music generation and transcription.
-\newblock In {\em 29th International Conference on Machine Learning},
-  Edinburgh, Scotland, UK, 2012.
+\newblock In {\em 29th Int. Conf. Machine Learning}, 2012.
 
 \bibitem{Boulanger-Lewandowski2013}
 N.~Boulanger-Lewandowski, Y.~Bengio, and P.~Vincent.
 \newblock High-dimensional sequence transduction.
-\newblock In {\em 2013 IEEE International Conference on Acoustics, Speech and
-  Signal Processing (ICASSP)}, pages 3178--3182, May 2013.
+\newblock In {\em ICASSP}, pages 3178--3182, May 2013.
 
 \bibitem{Cemgil2004a}
 A.~T. Cemgil.
@@ -72,16 +69,16 @@ A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
 Z.~Duan, B.~Pardo, and C.~Zhang.
 \newblock Multiple fundamental frequency estimation by modeling spectral peaks
   and non-peak regions.
-\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing},
+\newblock {\em IEEE Trans. Audio, Speech, and Language Processing},
   18(8):2121--2133, November 2010.
 
 \bibitem{Ewert2011}
-Sebastian Ewert and Meinard M{\"u}ller.
+S.~Ewert and M.~M{\"u}ller.
 \newblock Score-informed voice separation for piano recordings.
 \newblock In {\em ISMIR}, pages 245--250, 2011.
 
 \bibitem{Ewert2012}
-Sebastian Ewert and Meinard M{\"u}ller.
+S.~Ewert and M.~M{\"u}ller.
 \newblock Score-informed source separation for music signals.
 \newblock In {\em Multimodal Music Processing}, pages 73--94, 2012.
 
@@ -93,7 +90,7 @@ M.~Goto, H.~Hashiguchi, T.~Nishimura, and R.~Oka.
   Baltimore, USA, October 2003.
 
 \bibitem{Larochelle2011}
-Hugo Larochelle and Iain Murray.
+H.~Larochelle and I.~Murray.
 \newblock The neural autoregressive distribution estimator.
 \newblock {\em Journal of Machine Learning Research}, 15:29--37, 2011.
 
@@ -103,20 +100,19 @@ D.~D. Li and H.~S. Seung.
 \newblock {\em Nature}, 401:788--791, October 1999.
 
 \bibitem{Martens2011}
-James Martens and Ilya Sutskever.
+J.~Martens and I.~Sutskever.
 \newblock Learning recurrent neural networks with hessian-free optimization.
-\newblock In {\em Proceedings of the 28th International Conference on Machine
-  Learning (ICML-11)}, pages 1033--1040, 2011.
+\newblock In {\em 28th Int. Conf. Machine Learning}, pages 1033--1040, 2011.
 
 \bibitem{Nam2011}
-J.~Nam, , J.~Ngiam, H.~Lee, and M.~Slaney.
+J.~Nam, J.~Ngiam, H.~Lee, and M.~Slaney.
 \newblock A classification-based polyphonic piano transcription approach using
   learned feature representations.
 \newblock In {\em 12th International Society for Music Information Retrieval
-  Conference}, pages 175--180, Miami, Florida, USA, October 2011.
+  Conference}, pages 175--180, October 2011.
 
 \bibitem{Rabiner1993}
-Lawrence Rabiner and Biing-Hwang Juang.
+L.~Rabiner and B.-H. Juang.
 \newblock Fundamentals of speech recognition.
 \newblock 1993.
 
@@ -127,10 +123,10 @@ C.~Sch{\"{o}}rkhuber and A.~Klapuri.
   2010.
 
 \bibitem{Senturk2013}
-Sertan Sent{\"u}rk, Sankalp Gulati, and Xavier Serra.
+S.~Sent{\"u}rk, S.~Gulati, and X.~Serra.
 \newblock Score informed tonic identification for makam music of turkey.
-\newblock In {\em 14th Int. Soc. for Music Info. Retrieval Conf. Curitiba,
-  Brazil.(to appear)}, volume 195, page 206, 2013.
+\newblock In {\em 14th Int. Soc. for Music Information Retrieval Conf.}, pages
+  195--206, 2013.
 
 \bibitem{Shashanka2008}
 M.~Shashanka, B.~Raj, and P.~Smaragdis.
@@ -142,7 +138,8 @@ M.~Shashanka, B.~Raj, and P.~Smaragdis.
 P.~Smaragdis and G.~Mysore.
 \newblock Separation by ``humming'': user-guided sound extraction from
   monophonic mixtures.
-\newblock pages 69--72, October 2009.
+\newblock In {\em IEEE Workshop Applications of Signal Processing to Audio and
+  Acoustics}, pages 69--72, October 2009.
 
 \bibitem{Smaragdis2006}
 P.~Smaragdis, B.~Raj, and Ma. Shashanka.
@@ -151,13 +148,13 @@ P.~Smaragdis, B.~Raj, and Ma. Shashanka.
   Canada, December 2006.
 
 \bibitem{sutskever2008recurrent}
-Ilya Sutskever, Geoffrey~E Hinton, and Graham~W Taylor.
+I.~Sutskever, G.~E. Hinton, and G.~W. Taylor.
 \newblock The recurrent temporal restricted boltzmann machine.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   1601--1608, 2008.
 
 \bibitem{Werbos1990}
-Paul~J Werbos.
+P.~J. Werbos.
 \newblock Backpropagation through time: what it does and how to do it.
 \newblock {\em Proceedings of the IEEE}, 78(10):1550--1560, 1990.
 
