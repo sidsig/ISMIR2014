@@ -14,7 +14,7 @@ P(\omega,t) = P(t)\sum_{p,f,s}P(\omega|s,p,f)P_{t}(f|p)P_{t}(s|p)P_{t}(p) \label
 \end{equation} 
 where $p$ denotes pitch, $s$ denotes the musical instrument source, and $f$ denotes log-frequency shifting. $P(t)$ is the energy of the log-spectrogram, which is a known quantity. $P(\omega|s,p,f)$ denotes pre-extracted log-spectral templates per pitch $p$ and instrument $s$, which are also pre-shifted across log-frequency. The pre-shifting operation is made in order to account for pitch deviations, without needing to formulate a convolutive model across log-frequency. $P_{t}(f|p)$ is the time-varying log-frequency shifting distribution per pitch, $P_{t}(s|p)$ is the time-varying source contribution per pitch, and finally, $P_{t}(p)$ is the pitch activation, which essentially is the resulting music transcription. As a time-frequency representation in the log-frequency domain we use the constant-Q transform (CQT) with a log-spectral resolution of 60 bins/octave \cite{Schoerkhuber10}.
 
-The unknown model parameters ($P_{t}(f|p)$, $P_{t}(s|p)$, $P_{t}(p)$) can be iteratively estimated using the expectation-maximisation (EM) algorithm \cite{Dempster77}. For the \emph{Expectation} step, the following posterior is computed:
+The unknown model parameters ($P_{t}(f|p)$, $P_{t}(s|p)$, and $P_{t}(p)$) can be iteratively estimated using the expectation-maximisation (EM) algorithm \cite{Dempster77}. For the \emph{Expectation} step, the following posterior is computed:
  \begin{equation}
   P_{t}(p,f,s|\omega) = \frac{P(\omega|s,p,f)P_{t}(f|p)P_{t}(s|p)P_{t}(p)}{\sum_{p,f,s}P(\omega|s,p,f)P_{t}(f|p)P_{t}(s|p)P_{t}(p)} \label{eq:EStep}
  \end{equation}
