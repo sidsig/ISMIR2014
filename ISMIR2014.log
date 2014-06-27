@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.4.30)  28 APR 2014 16:04
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2013.4.30)  21 MAY 2014 19:53
 entering extended mode
  %&-line parsing enabled.
 **ISMIR2014.tex
@@ -311,18 +311,6 @@ Overfull \hbox (4.22496pt too wide) in paragraph at lines 54--55
 \OT1/ptm/m/n/10 Mod-els (MLMs) for im-prov-ing Au-to-matic Mu-sic Tran-scrip-
  []
 
-
-Overfull \hbox (1.02496pt too wide) in paragraph at lines 54--55
-\OT1/ptm/m/n/10 in-cor-po-rated into the tran-scrip-tion frame-work us-ing Diri
-ch-
- []
-
-
-Overfull \hbox (6.87486pt too wide) in paragraph at lines 54--55
-\OT1/ptm/m/n/10 let pri-ors. We test our hy-brid mod-els on a dataset of multip
-le-
- []
-
 (./introduction.tex
 Overfull \hbox (1.29474pt too wide) in paragraph at lines 4--6
 \OT1/ptm/m/n/10 plates (that typ-i-cally cor-re-spond to mu-si-cal notes) and c
@@ -335,8 +323,20 @@ Overfull \hbox (1.04538pt too wide) in paragraph at lines 7--8
  []
 
 
-Overfull \hbox (2.88528pt too wide) in paragraph at lines 12--13
-\OT1/ptm/m/n/10 boosts tran-scrip-tion ac-cu-racy by +3% on the Bach10 dataset
+Overfull \hbox (13.53497pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/10 sys-tem, in or-der to im-prove tran-scrip-tion per-for-mance. S
+pecif-
+ []
+
+
+Overfull \hbox (7.03499pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/10 Neural Au-tore-gres-sive Dis-tri-bu-tion Es-ti-ma-tor (RNN-NADE
+)
+ []
+
+
+Overfull \hbox (6.14539pt too wide) in paragraph at lines 12--13
+\OT1/ptm/m/n/10 poly-phonic mu-sic [13], com-pared to us-ing the acous-tic AMT
  []
 
 ) [1
@@ -357,26 +357,10 @@ it/10 p\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (7.84186pt too wide) in paragraph at lines 17--18
-[]\OT1/ptm/m/n/10 The un-known model pa-ram-e-ters ($\OML/cmm/m/it/10 P[]\OT1/c
-mr/m/n/10 (\OML/cmm/m/it/10 f\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 p\OT1/cmr/m/n/1
-0 )$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\
-OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/10 , $\OML/cm
-m/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/
-10 )
- []
-
-
-Overfull \hbox (17.50424pt too wide) in paragraph at lines 17--18
-\OT1/ptm/m/n/10 can be it-er-a-tively es-ti-mated us-ing the expectation-maximi
-sation
- []
-
-
-Underfull \vbox (badness 1533) has occurred while \output is active []
+Underfull \vbox (badness 4181) has occurred while \output is active []
 
 )
-Overfull \hbox (5.50496pt too wide) in paragraph at lines 37--62
+Overfull \hbox (5.50496pt too wide) in paragraph at lines 37--65
 \OT1/ptm/m/n/10 After per-form-ing 5-sample me-dian fil-ter-ing for note smooth
 -
  []
@@ -386,20 +370,13 @@ Overfull \hbox (11.87492pt too wide) in paragraph at lines 6--7
 \OT1/ptm/m/n/10 prior in-for-ma-tion within the tran-scrip-tion sys-tem. How-
  []
 
-
-Overfull \hbox (15.35466pt too wide) in paragraph at lines 17--19
-\OT1/ptm/m/n/10 tem-po-ral de-pen-den-cies, over mul-ti-ple time-scales when tr
-ained
- []
-
 [2]
-Overfull \hbox (3.06502pt too wide) in paragraph at lines 28--33
-\OT1/ptm/m/n/10 sec-ond or-der meth-ods like HF, sev-eral mod-i-fi-ca-tions to 
-first-
+Overfull \hbox (2.00548pt too wide) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 poly-phonic mu-sic data [19]. Apart from sec-ond or-der meth-
  []
 
 
-Overfull \hbox (4.56454pt too wide) in paragraph at lines 39--40
+Overfull \hbox (4.56454pt too wide) in paragraph at lines 38--40
 \OT1/ptm/m/n/10 dimensional se-quences is the Re-cur-rent Tem-po-ral Re-stricte
 d
  []
@@ -412,7 +389,19 @@ Overfull \hbox (1.49522pt too wide) in paragraph at lines 7--8
  []
 
 
-Overfull \hbox (11.70572pt too wide) in paragraph at lines 52--53
+Overfull \hbox (11.45503pt too wide) in paragraph at lines 53--54
+\OT1/ptm/m/n/10 the spec-tro-gram and raw out-put of the transcription-predicti
+on
+ []
+
+
+Overfull \hbox (2.08522pt too wide) in paragraph at lines 53--54
+\OT1/ptm/m/n/10 sys-tem us-ing the 3rd con-fig-u-ra-tion is dis-played for a re
+cord-
+ []
+
+
+Overfull \hbox (11.70572pt too wide) in paragraph at lines 55--56
 []\OT1/ptm/m/n/10 For com-par-i-son with the method of [13] (where the Bach10
  []
 
@@ -422,14 +411,14 @@ File: figures/FigSpectrogram.eps Graphic file (type eps)
 File: figures/FigTranscription.eps Graphic file (type eps)
  <figures/FigTranscription.eps>)
 (./conclusions.tex
-Overfull \hbox (1.13457pt too wide) in paragraph at lines 3--4
-\OT1/ptm/m/n/10 dataset of multiple-instrument record-ings showed that there
+Overfull \hbox (5.69429pt too wide) in paragraph at lines 3--4
+\OT1/ptm/m/n/10 ing Dirich-let pri-ors. Ex-per-i-men-tal re-sults us-ing the mu
+ltiple-
  []
 
 )
-Overfull \hbox (3.7252pt too wide) in paragraph at lines 5--70
-[]\OT1/ptm/m/n/10 In the cur-rent eval-u-a-tion, the lan-guage mod-els are trai
-ned
+Overfull \hbox (5.05551pt too wide) in paragraph at lines 5--73
+\OT1/ptm/m/n/10 ex-tend and im-prove the cur-rent mod-els for high-dimensional
  []
 
 (./ISMIR2014.bbl
@@ -443,10 +432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-
-Underfull \vbox (badness 3189) has occurred while \output is active []
-
- [5]
+[5]
 Underfull \hbox (badness 5756) in paragraph at lines 48--52
 \OT1/ptm/m/n/10 cent.  Mod-el-ing tem-po-ral de-pen-den-cies in high-
  []
@@ -466,7 +452,9 @@ Underfull \hbox (badness 1292) in paragraph at lines 138--143
 \OT1/ptm/m/n/10 ming'': user-guided sound ex-trac-tion from mono-
  []
 
-) [6] (./ISMIR2014.aux)
+[6]) [7
+
+] (./ISMIR2014.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -474,10 +462,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  3525 strings out of 256217
  41154 string characters out of 1917095
- 122265 words of memory out of 1500000
+ 119265 words of memory out of 1500000
  6724 multiletter control sequences out of 10000+200000
  18865 words of font info for 62 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 30i,14n,37p,1163b,365s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 30i,14n,37p,1132b,365s stack positions out of 5000i,500n,6000p,200000b,15000s
 
-Output written on ISMIR2014.dvi (6 pages, 48468 bytes).
+Output written on ISMIR2014.dvi (7 pages, 48836 bytes).
