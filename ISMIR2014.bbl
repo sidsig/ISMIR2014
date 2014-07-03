@@ -34,13 +34,13 @@ Y.~Bengio, P.~Simard, and P.~Frasconi.
 
 \bibitem{Bertin2009}
 N.~Bertin, R.~Badeau, and E.~Vincent.
-\newblock Enforcing harmonicity and smoothness in bayesian non-negative matrix
-  factorization applied to polyphonic music transcription.
+\newblock Enforcing harmonicity and smoothness in {Bayesian} non-negative
+  matrix factorization applied to polyphonic music transcription.
 \newblock {\em IEEE Trans. Audio, Speech, and Language Processing},
   18(3):538--549, March 2010.
 
 \bibitem{Bock2012}
-S.~Bock and M.~Schedl.
+S.~B{\"{o}}ck and M.~Schedl.
 \newblock Polyphonic piano note transcription with recurrent neural networks.
 \newblock In {\em ICASSP}, pages 121--124, March 2012.
 
@@ -57,7 +57,7 @@ N.~Boulanger-Lewandowski, Y.~Bengio, and P.~Vincent.
 
 \bibitem{Cemgil2004a}
 A.~T. Cemgil.
-\newblock {\em Bayesian Music Transcription}.
+\newblock {\em {Bayesian} Music Transcription}.
 \newblock PhD thesis, Radboud University of Nijmegen, 2004.
 
 \bibitem{Dempster77}
@@ -86,8 +86,7 @@ S.~Ewert and M.~M{\"u}ller.
 M.~Goto, H.~Hashiguchi, T.~Nishimura, and R.~Oka.
 \newblock {RWC} music database: music genre database and musical instrument
   sound database.
-\newblock In {\em International Conference on Music Information Retrieval},
-  Baltimore, USA, October 2003.
+\newblock In {\em ISMIR}, Baltimore, USA, October 2003.
 
 \bibitem{Larochelle2011}
 H.~Larochelle and I.~Murray.
@@ -101,15 +100,14 @@ D.~D. Li and H.~S. Seung.
 
 \bibitem{Martens2011}
 J.~Martens and I.~Sutskever.
-\newblock Learning recurrent neural networks with hessian-free optimization.
+\newblock Learning recurrent neural networks with {Hessian-free} optimization.
 \newblock In {\em 28th Int. Conf. Machine Learning}, pages 1033--1040, 2011.
 
 \bibitem{Nam2011}
 J.~Nam, J.~Ngiam, H.~Lee, and M.~Slaney.
 \newblock A classification-based polyphonic piano transcription approach using
   learned feature representations.
-\newblock In {\em 12th International Society for Music Information Retrieval
-  Conference}, pages 175--180, October 2011.
+\newblock In {\em ISMIR}, pages 175--180, October 2011.
 
 \bibitem{Rabiner1993}
 L.~Rabiner and B.-H. Juang.
@@ -125,8 +123,7 @@ C.~Sch{\"{o}}rkhuber and A.~Klapuri.
 \bibitem{Senturk2013}
 S.~Sent{\"u}rk, S.~Gulati, and X.~Serra.
 \newblock Score informed tonic identification for makam music of turkey.
-\newblock In {\em 14th Int. Soc. for Music Information Retrieval Conf.}, pages
-  195--206, 2013.
+\newblock In {\em ISMIR}, pages 195--206, 2013.
 
 \bibitem{Shashanka2008}
 M.~Shashanka, B.~Raj, and P.~Smaragdis.
@@ -142,14 +139,14 @@ P.~Smaragdis and G.~Mysore.
   Acoustics}, pages 69--72, October 2009.
 
 \bibitem{Smaragdis2006}
-P.~Smaragdis, B.~Raj, and Ma. Shashanka.
+P.~Smaragdis, B.~Raj, and M.~Shashanka.
 \newblock A probabilistic latent variable model for acoustic modeling.
 \newblock In {\em Neural Information Processing Systems Workshop}, Whistler,
   Canada, December 2006.
 
 \bibitem{sutskever2008recurrent}
 I.~Sutskever, G.~E. Hinton, and G.~W. Taylor.
-\newblock The recurrent temporal restricted boltzmann machine.
+\newblock The recurrent temporal restricted {Boltzmann} machine.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   1601--1608, 2008.
 
