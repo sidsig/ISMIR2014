@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: ISMIR2014.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+Warning--to sort, need author or key in MIREX
+Warning--empty journal in Rabiner1993
+You've used 27 entries,
+            2118 wiz_defined-function locations,
+            677 strings with 8407 characters,
+and the built_in function-call counts, 9882 in all, are:
+= -- 986
+> -- 411
+< -- 8
++ -- 167
+- -- 134
+* -- 676
+:= -- 1541
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 147
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 407
+empty$ -- 822
+format.name$ -- 134
+if$ -- 2126
+int.to.chr$ -- 0
+int.to.str$ -- 27
+missing$ -- 25
+newline$ -- 137
+num.names$ -- 52
+pop$ -- 176
+preamble$ -- 1
+purify$ -- 121
+quote$ -- 0
+skip$ -- 304
+stack$ -- 0
+substring$ -- 695
+swap$ -- 114
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 2
+while$ -- 97
+width$ -- 29
+write$ -- 291
+(There were 2 warnings)

@@ -1,0 +1,154 @@
+\begin{thebibliography}{10}
+
+\bibitem{MIREX}
+Music {I}nformation {R}etrieval {E}valuation e{X}change ({MIREX}).
+\newblock \url{http://music-ir.org/mirexwiki/}.
+
+\bibitem{Benetos2013}
+E.~Benetos, S.~Cherla, and T.~Weyde.
+\newblock An effcient shiftinvariant model for polyphonic music transcription.
+\newblock In {\em 6th International Workshop on Machine Learning and Music},
+  2013.
+
+\bibitem{Benetos2012}
+E.~Benetos and S.~Dixon.
+\newblock A shift-invariant latent variable model for automatic music
+  transcription.
+\newblock {\em Computer Music Journal}, 36(4):81--94, 2012.
+
+\bibitem{Benetos2013b}
+E.~Benetos, S.~Dixon, D.~Giannoulis, H.~Kirchhoff, and A.~Klapuri.
+\newblock Automatic music transcription: challenges and future directions.
+\newblock {\em Journal of Intelligent Information Systems}, 41(3):407--434,
+  December 2013.
+
+\bibitem{bengio2012advances}
+Y.~Bengio, N.~Boulanger-Lewandowski, and R.~Pascanu.
+\newblock Advances in optimizing recurrent networks.
+\newblock In {\em ICASSP}, pages 8624--8628, May 2013.
+
+\bibitem{Bengio1994}
+Y.~Bengio, P.~Simard, and P.~Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE Trans. Neural Networks}, 5(2):157--166, 1994.
+
+\bibitem{Bertin2009}
+N.~Bertin, R.~Badeau, and E.~Vincent.
+\newblock Enforcing harmonicity and smoothness in {Bayesian} non-negative
+  matrix factorization applied to polyphonic music transcription.
+\newblock {\em IEEE Trans. Audio, Speech, and Language Processing},
+  18(3):538--549, March 2010.
+
+\bibitem{Bock2012}
+S.~B{\"{o}}ck and M.~Schedl.
+\newblock Polyphonic piano note transcription with recurrent neural networks.
+\newblock In {\em ICASSP}, pages 121--124, March 2012.
+
+\bibitem{Boulanger-Lewandowski2012}
+N.~Boulanger-Lewandowski, Y.~Bengio, and P.~Vincent.
+\newblock Modeling temporal dependencies in high-dimensional sequences:
+  Application to polyphonic music generation and transcription.
+\newblock In {\em 29th Int. Conf. Machine Learning}, 2012.
+
+\bibitem{Boulanger-Lewandowski2013}
+N.~Boulanger-Lewandowski, Y.~Bengio, and P.~Vincent.
+\newblock High-dimensional sequence transduction.
+\newblock In {\em ICASSP}, pages 3178--3182, May 2013.
+
+\bibitem{Cemgil2004a}
+A.~T. Cemgil.
+\newblock {\em {Bayesian} Music Transcription}.
+\newblock PhD thesis, Radboud University of Nijmegen, 2004.
+
+\bibitem{Dempster77}
+A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
+\newblock Maximum likelihood from incomplete data via the {EM} algorithm.
+\newblock {\em Journal of the Royal Statistical Society}, 39(1):1--38, 1977.
+
+\bibitem{Duan2010}
+Z.~Duan, B.~Pardo, and C.~Zhang.
+\newblock Multiple fundamental frequency estimation by modeling spectral peaks
+  and non-peak regions.
+\newblock {\em IEEE Trans. Audio, Speech, and Language Processing},
+  18(8):2121--2133, November 2010.
+
+\bibitem{Goto2003}
+M.~Goto, H.~Hashiguchi, T.~Nishimura, and R.~Oka.
+\newblock {RWC} music database: music genre database and musical instrument
+  sound database.
+\newblock In {\em ISMIR}, Baltimore, USA, October 2003.
+
+\bibitem{Hochreiter1997}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{Jaeger2002}
+H.~Jaeger.
+\newblock Adaptive nonlinear system identification with echo state networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  593--600, 2002.
+
+\bibitem{Larochelle2011}
+H.~Larochelle and I.~Murray.
+\newblock The neural autoregressive distribution estimator.
+\newblock {\em Journal of Machine Learning Research}, 15:29--37, 2011.
+
+\bibitem{Li1999}
+D.~D. Li and H.~S. Seung.
+\newblock Learning the parts of objects by non-negative matrix factorization.
+\newblock {\em Nature}, 401:788--791, October 1999.
+
+\bibitem{Martens2011}
+J.~Martens and I.~Sutskever.
+\newblock Learning recurrent neural networks with {Hessian-free} optimization.
+\newblock In {\em 28th Int. Conf. Machine Learning}, pages 1033--1040, 2011.
+
+\bibitem{Nam2011}
+J.~Nam, J.~Ngiam, H.~Lee, and M.~Slaney.
+\newblock A classification-based polyphonic piano transcription approach using
+  learned feature representations.
+\newblock In {\em ISMIR}, pages 175--180, October 2011.
+
+\bibitem{Rabiner1993}
+L.~Rabiner and B.-H. Juang.
+\newblock Fundamentals of speech recognition.
+\newblock 1993.
+
+\bibitem{Raczynski13}
+S.A. Raczynski, E.~Vincent, and S.~Sagayama.
+\newblock Dynamic {Bayesian} networks for symbolic polyphonic pitch modeling.
+\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing},
+  21(9):1830--1840, 2013.
+
+\bibitem{Schoerkhuber10}
+C.~Sch{\"{o}}rkhuber and A.~Klapuri.
+\newblock Constant-{Q} transform toolbox for music processing.
+\newblock In {\em 7th Sound and Music Computing Conf.}, Barcelona, Spain, July
+  2010.
+
+\bibitem{Smaragdis2009}
+P.~Smaragdis and G.~Mysore.
+\newblock Separation by ``humming'': user-guided sound extraction from
+  monophonic mixtures.
+\newblock In {\em IEEE Workshop Applications of Signal Processing to Audio and
+  Acoustics}, pages 69--72, October 2009.
+
+\bibitem{Smaragdis2006}
+P.~Smaragdis, B.~Raj, and M.~Shashanka.
+\newblock A probabilistic latent variable model for acoustic modeling.
+\newblock In {\em Neural Information Processing Systems Workshop}, Whistler,
+  Canada, December 2006.
+
+\bibitem{sutskever2008recurrent}
+I.~Sutskever, G.~E. Hinton, and G.~W. Taylor.
+\newblock The recurrent temporal restricted {Boltzmann} machine.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  1601--1608, 2008.
+
+\bibitem{Werbos1990}
+P.~J. Werbos.
+\newblock Backpropagation through time: what it does and how to do it.
+\newblock {\em Proceedings of the IEEE}, 78(10):1550--1560, 1990.
+
+\end{thebibliography}
