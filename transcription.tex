@@ -1,7 +1,7 @@
 \section{Automatic Music Transcription System} \label{sec:transcription}
 
 
-For combining acoustic and music language information in an AMT context, we employ the model of \cite{Benetos2012}, which supports the transcription of multiple-instrument polyphonic music and also supports pitch deviations and frequency modulations. The model of \cite{Benetos2012} is based on PLCA, which is a latent variable analysis method which has been used for decomposing spectrograms \cite{Shashanka2008}.
+For combining acoustic and music language information in an AMT context, we employ the model of \cite{Benetos2012}, which supports the transcription of multiple-instrument polyphonic music and also supports pitch deviations and frequency modulations. The model of \cite{Benetos2012} is based on PLCA, which is a latent variable analysis method which has been used for decomposing spectrograms.
 %and can be viewed as a probabilistic version of non-negative matrix factorization \cite{Li1999}. 
 For computational efficiency purposes, we employ the fast implementation from \cite{Benetos2013}, which utilized pre-extracted note templates that are also pre-shifted across log-frequency, in order to account for frequency modulations or tuning changes. In addition, as was shown in \cite{Smaragdis2009}, PLCA-based models can utilise priors for estimating unknown model parameters, which will be useful in this paper for informing the 
 acoustic transcription system with symbolic information.
@@ -21,13 +21,13 @@ The unknown model parameters ($P_{t}(f|p)$, $P_{t}(s|p)$, and $P_{t}(p)$) can be
   
 For the \emph{Maximization} step (without using any priors) unknown model parameters are updated using the posterior computed from the Expectation step:
  \begin{equation}
- P_{t}(f|p) = \frac{\sum_{\omega,s}P_{t}(p,f,s|\omega)V_{\omega,t}}{\sum_{f,\omega,s}P_{t}(p,f,s|\omega)V_{\omega,t}} 
+ P_{t}(f|p) \propto \sum_{\omega,s}P_{t}(p,f,s|\omega)V_{\omega,t}
 \end{equation}
 \begin{equation}
- P_{t}(s|p) = \frac{\sum_{\omega,f}P_{t}(p,f,s|\omega)V_{\omega,t}}{\sum_{s,\omega,f}P_{t}(p,f,s|\omega)V_{\omega,t}} \label{eq:MStepInstrument}
+ P_{t}(s|p) \propto \sum_{\omega,f}P_{t}(p,f,s|\omega)V_{\omega,t} \label{eq:MStepInstrument}
 \end{equation}
 \begin{equation}
- P_{t}(p) = \frac{\sum_{\omega,f,s}P_{t}(p,f,s|\omega)V_{\omega,t}}{\sum_{p,\omega,f,s}P_{t}(p,f,s|\omega)V_{\omega,t}} \label{eq:MStepTranscription}
+ P_{t}(p) \propto \sum_{\omega,f,s}P_{t}(p,f,s|\omega)V_{\omega,t} \label{eq:MStepTranscription}
 \end{equation}
 
 

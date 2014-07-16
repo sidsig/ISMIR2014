@@ -1,6 +1,6 @@
 % -----------------------------------------------
-% Template for ISMIR 2014
-% (based on earlier ISMIR templates)
+% Template for ISMIR Papers
+% 2014 version, based on previous ISMIR templates
 % -----------------------------------------------
 
 \documentclass{article}
@@ -16,14 +16,14 @@
 
 % Title.
 % ------
-\title{RNN-based Music Language Models for Improving Automatic Music Transcription}
+\title{An RNN-based Music Language Models for Improving Automatic Music Transcription}
 
 % Single address
 % To use with only one author or several with the same address
 % ---------------
-%\oneauthor
-% {Names should be omitted for double-blind reviewing}
-% {Affiliations should be omitted for double-blind reviewing}
+\oneauthor
+{Siddharth Sigtia$^\dag$, Emmanouil Benetos$^\ddag$, Srikanth Cherla$^\ddag$,}
+{ \textbf{Tillman Weyde$^\ddag$, Artur S. d'Avila Garcez$^\ddag$, and Simon Dixon$^\dag$}\\ $\dag$ Centre for Digital Music, Queen Mary University of London \\ $\ddag$ Department of Computer Science, City University London\\ {\small {\tt $\dag$ \{ s.s.sigtia, s.e.dixon\}@qmul.ac.uk}} \\ {\small {\tt $\ddag$ \{ emmanouil.benetos.1,srikanth.cherla.1,t.e.weyde,a.garcez\}@city.ac.uk}}\thanks{SS is supported by a City University London Pump-Priming Grant. EB is supported by a City University London Research Fellowship. SC is supported by a City University London Research Studentship.}}
 
 % Two addresses
 % --------------
@@ -33,10 +33,10 @@
 
 % Three addresses
 % --------------
-\threeauthors
-  {First author} {Affiliation1 \\ {\tt author1@ismir.edu}}
-  {Second author} {\bf Retain these fake authors in\\\bf submission to preserve the formatting}
-  {Third author} {Affiliation3 \\ {\tt author3@ismir.edu}}
+%\threeauthors
+%  {First author} {Affiliation1 \\ {\tt author1@ismir.edu}}
+%  {Second author} {\bf Retain these fake authors in\\\bf submission to preserve the formatting}
+%  {Third author} {Affiliation3 \\ {\tt author3@ismir.edu}}
 
 % Four addresses
 % --------------
@@ -50,15 +50,13 @@
 %
 \maketitle
 %
+
 \begin{abstract}
 In this paper, we investigate the use of Music Language Models (MLMs) for improving Automatic Music Transcription performance. The MLMs are trained on sequences of symbolic polyphonic music from the Nottingham dataset. We train Recurrent Neural Network (RNN)-based models, as they are capable of capturing complex temporal structure present in symbolic music data. Similar to the function of language models in automatic speech recognition, we use the MLMs to generate a prior probability for the occurrence of a sequence. The acoustic AMT model is based on probabilistic latent component analysis, and prior information from the MLM is incorporated into the transcription framework using Dirichlet priors. We test our hybrid models on a dataset of multiple-instrument polyphonic music and report a significant 3\% improvement in terms of F-measure, when compared to using an acoustic-only model.
 
 % In this paper, we investigate the use of Music Language Models (MLMs) for improving Automatic Music Transcription (AMT) performance. AMT is the process of converting an acoustic music signal into a symbolic notation, and is considered to be a fundamental problem in music signal processing. The MLMs are trained on sequences of symbolic polyphonic music. We train Recurrent Neural Network (RNN)-based models, as they are capable of capturing complex temporal structure present in symbolic music data. Similar to the function of language models in automatic speech recognition, we use the MLMs to generate a prior probability for the occurrence of a sequence. The acoustic AMT model is based on probabilistic latent component analysis, and prior information from the MLM is incorporated into the transcription framework using Dirichlet priors. We test our hybrid models on a dataset of multiple-instrument polyphonic music and report a significant 3\% improvement in terms of F-measure, when compared to using an acoustic-
 % only model.
 \end{abstract}
-%
-
-
 \input{introduction.tex}
 
 \input{transcription.tex}
@@ -71,8 +69,8 @@ In this paper, we investigate the use of Music Language Models (MLMs) for improv
 
 \input{conclusions.tex}
 
-\bibliography{bibliography}
+{\small 
 
-%\bibliography{ismir2014template}
+\bibliography{bibliography}}
 
 \end{document}

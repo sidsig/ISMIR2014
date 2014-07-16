@@ -4,45 +4,45 @@ The style file: plain.bst
 Database file #1: bibliography.bib
 Warning--to sort, need author or key in MIREX
 Warning--empty journal in Rabiner1993
-You've used 28 entries,
+You've used 27 entries,
             2118 wiz_defined-function locations,
-            676 strings with 8463 characters,
-and the built_in function-call counts, 10360 in all, are:
-= -- 1031
-> -- 435
-< -- 10
-+ -- 176
-- -- 142
-* -- 687
-:= -- 1605
-add.period$ -- 84
-call.type$ -- 28
-change.case$ -- 154
+            677 strings with 8407 characters,
+and the built_in function-call counts, 9882 in all, are:
+= -- 986
+> -- 411
+< -- 8
++ -- 167
+- -- 134
+* -- 676
+:= -- 1541
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 147
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 439
-empty$ -- 860
-format.name$ -- 142
-if$ -- 2246
+cite$ -- 29
+duplicate$ -- 407
+empty$ -- 822
+format.name$ -- 134
+if$ -- 2126
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 26
-newline$ -- 143
-num.names$ -- 54
-pop$ -- 192
+int.to.str$ -- 27
+missing$ -- 25
+newline$ -- 137
+num.names$ -- 52
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 121
 quote$ -- 0
-skip$ -- 335
+skip$ -- 304
 stack$ -- 0
-substring$ -- 694
-swap$ -- 133
-text.length$ -- 10
+substring$ -- 695
+swap$ -- 114
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 112
+type$ -- 108
 warning$ -- 2
-while$ -- 101
-width$ -- 30
-write$ -- 303
+while$ -- 97
+width$ -- 29
+write$ -- 291
 (There were 2 warnings)

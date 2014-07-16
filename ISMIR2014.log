@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.7)  3 JUL 2014 15:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.7)  16 JUL 2014 12:41
 entering extended mode
  %&-line parsing enabled.
 **ISMIR2014.tex
@@ -279,20 +279,28 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 51.
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (3.99689pt too wide) in paragraph at lines 51--51
- [][] 
- []
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 51.
 
+(/usr/share/texmf-texlive/tex/latex/psnfss/omspcr.fd
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+File: figs/cc_by.eps Graphic file (type eps)
+ <figs/cc_by.eps>
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 51.
+
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 
-Overfull \hbox (4.22496pt too wide) in paragraph at lines 54--55
+Overfull \hbox (4.22496pt too wide) in paragraph at lines 55--56
 \OT1/ptm/m/n/10 Mod-els (MLMs) for im-prov-ing Au-to-matic Mu-sic Tran-scrip-
  []
 
@@ -308,27 +316,31 @@ Overfull \hbox (1.04538pt too wide) in paragraph at lines 7--8
  []
 
 
-Overfull \hbox (13.53497pt too wide) in paragraph at lines 12--13
+Overfull \hbox (13.53497pt too wide) in paragraph at lines 13--14
 \OT1/ptm/m/n/10 sys-tem, in or-der to im-prove tran-scrip-tion per-for-mance. S
 pecif-
  []
 
 
-Overfull \hbox (7.03499pt too wide) in paragraph at lines 12--13
+Overfull \hbox (7.03499pt too wide) in paragraph at lines 13--14
 \OT1/ptm/m/n/10 Neural Au-tore-gres-sive Dis-tri-bu-tion Es-ti-ma-tor (RNN-NADE
 )
  []
 
 
-Overfull \hbox (6.14539pt too wide) in paragraph at lines 12--13
+Overfull \hbox (6.14539pt too wide) in paragraph at lines 13--14
 \OT1/ptm/m/n/10 poly-phonic mu-sic [13], com-pared to us-ing the acous-tic AMT
  []
 
-) [1
+
+Underfull \vbox (badness 6592) has occurred while \output is active []
+
+ [1
 
 
 
-] (./transcription.tex
+])
+(./transcription.tex
 Overfull \hbox (0.5151pt too wide) in paragraph at lines 9--10
 \OT1/ptm/m/n/10 in-stru-ment, and log-frequency shift-ing (which in-di-cates de
 -
@@ -341,11 +353,8 @@ cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OMS/cmsy/m/n/10 j\OML/cmm/m/
 it/10 p\OT1/cmr/m/n/10 )$
  []
 
-
-Underfull \vbox (badness 4181) has occurred while \output is active []
-
 )
-Overfull \hbox (5.50496pt too wide) in paragraph at lines 37--65
+Overfull \hbox (5.50496pt too wide) in paragraph at lines 37--63
 \OT1/ptm/m/n/10 After per-form-ing 5-sample me-dian fil-ter-ing for note smooth
 -
  []
@@ -356,12 +365,12 @@ Overfull \hbox (11.87492pt too wide) in paragraph at lines 6--7
  []
 
 [2]
-Overfull \hbox (2.00548pt too wide) in paragraph at lines 27--32
+Overfull \hbox (2.00548pt too wide) in paragraph at lines 28--33
 \OT1/ptm/m/n/10 poly-phonic mu-sic data [19]. Apart from sec-ond or-der meth-
  []
 
 
-Overfull \hbox (4.56454pt too wide) in paragraph at lines 38--40
+Overfull \hbox (4.56454pt too wide) in paragraph at lines 39--41
 \OT1/ptm/m/n/10 dimensional se-quences is the Re-cur-rent Tem-po-ral Re-stricte
 d
  []
@@ -373,78 +382,41 @@ Overfull \hbox (1.49522pt too wide) in paragraph at lines 7--8
 []\OT1/ptm/m/n/10 For train-ing the MLMs we use the Not-ting-ham dataset[],
  []
 
-
-Overfull \hbox (11.45503pt too wide) in paragraph at lines 53--54
-\OT1/ptm/m/n/10 the spec-tro-gram and raw out-put of the transcription-predicti
-on
- []
-
-
-Overfull \hbox (2.08522pt too wide) in paragraph at lines 53--54
-\OT1/ptm/m/n/10 sys-tem us-ing the 3rd con-fig-u-ra-tion is dis-played for a re
-cord-
- []
-
-
-Overfull \hbox (11.70572pt too wide) in paragraph at lines 55--56
-[]\OT1/ptm/m/n/10 For com-par-i-son with the method of [13] (where the Bach10
- []
-
 [4]
+Overfull \hbox (5.74576pt too wide) in paragraph at lines 55--56
+[]\OT1/ptm/m/n/10 By com-par-ing with the method of [13] (where the Bach10
+ []
+
 File: figures/FigSpectrogram.eps Graphic file (type eps)
- <figures/FigSpectrogram.eps>
+<figures/FigSpectrogram.eps>
 File: figures/FigTranscription.eps Graphic file (type eps)
- <figures/FigTranscription.eps>)
-(./conclusions.tex
+ <figures/FigTranscription.eps>) (./conclusions.tex
 Overfull \hbox (5.69429pt too wide) in paragraph at lines 3--4
 \OT1/ptm/m/n/10 ing Dirich-let pri-ors. Ex-per-i-men-tal re-sults us-ing the mu
 ltiple-
  []
 
 )
-Overfull \hbox (5.05551pt too wide) in paragraph at lines 5--73
-\OT1/ptm/m/n/10 ex-tend and im-prove the cur-rent mod-els for high-dimensional
- []
-
-(./ISMIR2014.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-[]\OT1/ptm/m/n/10 Music In-for-ma-tion Re-trieval Eval-u-a-tion eX-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-\OT1/ptm/m/n/10 change (MIREX).  $\OT1/pcr/m/n/10 http : / / music-[]ir . org /
+Underfull \hbox (badness 10000) in paragraph at lines 5--71
 
  []
 
-[5]
-Underfull \hbox (badness 5756) in paragraph at lines 48--52
-\OT1/ptm/m/n/10 cent.  Mod-el-ing tem-po-ral de-pen-den-cies in high-
- []
+[5] (./ISMIR2014.bbl
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 
-
-Underfull \hbox (badness 3260) in paragraph at lines 54--57
-\OT1/ptm/m/n/10 cent.  High-dimensional se-quence trans-duc-tion.  In
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 107--111
-[]\OT1/ptm/m/n/10 J. Nam, J. Ngiam, H. Lee, and M. Slaney.  A
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 135--140
-\OT1/ptm/m/n/10 ming'': user-guided sound ex-trac-tion from mono-
+Underfull \hbox (badness 1052) in paragraph at lines 54--57
+[]\OT1/ptm/m/n/9 N. Boulanger-Lewandowski, Y. Ben-gio, and P. Vin-cent.
  []
 
 ) [6] (./ISMIR2014.aux) ) 
 Here is how much of TeX's memory you used:
- 3543 strings out of 493849
- 41785 string characters out of 1152847
- 126722 words of memory out of 3000000
- 6739 multiletter control sequences out of 15000+50000
- 18856 words of font info for 62 fonts, out of 3000000 for 9000
+ 3587 strings out of 493849
+ 42357 string characters out of 1152847
+ 125774 words of memory out of 3000000
+ 6772 multiletter control sequences out of 15000+50000
+ 22931 words of font info for 73 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 30i,14n,37p,1132b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,17n,37p,1250b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on ISMIR2014.dvi (6 pages, 48460 bytes).
+Output written on ISMIR2014.dvi (6 pages, 50056 bytes).
