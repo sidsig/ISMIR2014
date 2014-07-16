@@ -27,7 +27,7 @@ to SGD, where learning rate needs to be updated to make sure training is effecti
 
 \begin{table}[t]
  \begin{center}
- \resizebox{150pt}{!}{
+ \resizebox{130pt}{!}{
  \begin{tabular}{|l|c|}
   \hline
   \textbf{Model} & $\mathit{Pre}$ \\ \hline 
@@ -39,14 +39,17 @@ to SGD, where learning rate needs to be updated to make sure training is effecti
  \end{tabular}
  }
 \end{center}
+\vspace{-0.1in}
  \caption{Validation results for MLMs}
  \label{tab:prediction}
+ \vspace{-0.1in}
 \end{table}
 
 
 Multi-pitch detection experiments are performed using the proposed system, with various configurations. A first configuration only considers the transcription system from Section \ref{sec:transcription}. A second configuration takes the output of the transcription system and gives it as input to the prediction system of Section \ref{sec:prediction}, where the final piano-roll is the output of the prediction step. A third configuration (presented in Section \ref{sec:combination}), re-transcribes the recording, having the prediction as a prior information for estimating the pitch activations. For the prediction system, experiments were performed using both the RNN-NADE and the RNN.
 
-Results using the various system configurations are displayed in Table \ref{tab:results}. It can be seen that the best performance is achieved by the 3rd configuration when using the NADE-HF model for prediction, which surpasses the acoustic-only transcription system by more than 3\%. In general, it can be seen that using the prediction system as a post-processing step (2nd configuration) always leads to an improvement over the acoustic-only model (1st configuration). A similar trend can be observed when integrating the prediction information as a prior in the transcription system (configuration 3) compared to just using the prediction system as post-processing (configuration 2); an improvement is always reported. Another observation can be made when comparing the RNN-NADE with the RNN, with the former providing a clear improvement. For comparative purposes, we also trained MLMs using 500 MIDI files of J.S. Bach chorales\footnote{http://www.jsbchorales.net/sets.shtml} and tested the models on the Bach10 recordings. Using the Bach MLMs, the system reached $F =  63.58\%$, which is an improvement over the acoustic-only system, but is outperformed by the Nottingham language model. 
+Results using the various system configurations are displayed in Table \ref{tab:results}. It can be seen that the best performance is achieved by the 3rd configuration when using the NADE-HF model for prediction, which surpasses the acoustic-only transcription system by more than 3\%. In general, it can be seen that using the prediction system as a post-processing step (2nd configuration) always leads to an improvement over the acoustic-only model (1st configuration). A similar trend can be observed when integrating the prediction information as a prior in the transcription system (configuration 3) compared to just using the prediction system as post-processing (configuration 2); an improvement is always reported. Another observation can be made when comparing the RNN-NADE with the RNN, with the former providing a clear improvement. For comparative purposes, we also trained MLMs using 500 MIDI files of J.S. Bach chorales\footnote{http://www.jsbchorales.net/sets.shtml} and tested the models on the Bach10 
+recordings. Using the Bach MLMs, the system reached $F =  63.58\%$, which is an improvement over the acoustic-only system, but is outperformed by the Nottingham language model. 
 
 Qualitatively, the MLMs are able to improve transcription performance by providing a rough estimate of which pitches are expected to appear in the recording (and which pitches are not expected to appear). The language models were trained using simple chord sequences (from the Nottingham dataset) that are representative of simple tonal music and are applicable as language models to the more complex Bach chorales. We believe that the reason for the J.S. Bach MLMs not performing as well as the Nottingham MLMs is due to the fact that predicting Bach's music is a complex task (many exceptions, key changes, modulations), whereas a simple tonal model like the Nottingham dataset can work as a general-purpose language model in many types of music (this is also verified in \cite{Boulanger-Lewandowski2012}).
 
@@ -75,6 +78,7 @@ By comparing with the method of \cite{Duan2010} (where the Bach10 dataset was fi
 \vspace{-0.1in}
  \caption{Transcription results using various system configurations.}
  \label{tab:results}
+  \vspace{-0.1in}
 \end{table}
 
 
