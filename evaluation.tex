@@ -53,9 +53,7 @@ recordings. Using the Bach MLMs, the system reached $F =  63.58\%$, which is an 
 
 Qualitatively, the MLMs are able to improve transcription performance by providing a rough estimate of which pitches are expected to appear in the recording (and which pitches are not expected to appear). The language models were trained using simple chord sequences (from the Nottingham dataset) that are representative of simple tonal music and are applicable as language models to the more complex Bach chorales. We believe that the reason for the J.S. Bach MLMs not performing as well as the Nottingham MLMs is due to the fact that predicting Bach's music is a complex task (many exceptions, key changes, modulations), whereas a simple tonal model like the Nottingham dataset can work as a general-purpose language model in many types of music (this is also verified in \cite{Boulanger-Lewandowski2012}).
 
-As an example of the proposed system's performance, the spectrogram and raw output of the system using the 3rd configuration is displayed for a recording from the Bach10 dataset in Fig. \ref{fig:Spectrogram}, whereas the post-processed transcription output along with the ground truth for the same recording is shown in Fig. \ref{fig:Transcription}.
-
-By comparing with the method of \cite{Duan2010} (where the Bach10 dataset was first introduced), the proposed method using the frame-based accuracy metric which is defined in the same paper by Duan et al., reaches 74.3\% for the NADE-HF using the 3rd configuration, whereas the method of \cite{Duan2010} reaches 69.7\% (with unknown polyphony).
+By comparing with the method of \cite{Duan2010} (where the Bach10 dataset was first introduced), the proposed method using the frame-based accuracy metric reaches 74.3\% for the NADE-HF using the 3rd configuration, whereas the method of \cite{Duan2010} reaches 69.7\% (with unknown polyphony). As an example of the proposed system's performance, the spectrogram and raw output of the system using the 3rd configuration is displayed for a Bach10 recording Fig. \ref{fig:Spectrogram}, whereas the post-processed transcription output along with the ground truth for the same recording is shown in Fig. \ref{fig:Transcription}.
 
 \begin{table}[t]
  \begin{center}
@@ -78,9 +76,8 @@ By comparing with the method of \cite{Duan2010} (where the Bach10 dataset was fi
 \vspace{-0.1in}
  \caption{Transcription results using various system configurations.}
  \label{tab:results}
-  \vspace{-0.1in}
+  \vspace{-0.15in}
 \end{table}
-
 
 \begin{figure}[t]
  \resizebox{230pt}{!}{
@@ -89,14 +86,16 @@ By comparing with the method of \cite{Duan2010} (where the Bach10 dataset was fi
  \vspace{-0.05in}
  \caption{(a) The spectrogram $V_{\omega,t}$ for recording ``Ach Lieben Christen'' from the Bach10 dataset. (b) The pitch activation $P(p,t)$ using the  transcription-prediction system using the 3rd configuration, with the NADE-HF.}
  \label{fig:Spectrogram}
+  \vspace{-0.05in}
 \end{figure}
 
 \begin{figure}[t]
  \resizebox{230pt}{!}{
  \includegraphics{figures/FigTranscription.eps}
  }
-  \vspace{-0.05in}
+  \vspace{-0.1in}
  \caption{Transcription example for recording ``Ach Lieben Christen'' from the Bach10 dataset. (a) The post-processed output of the transcription-predicton system using the 3rd configuration, with the NADE-HF. (b) The pitch ground truth of the recording.}
  \label{fig:Transcription}
+ \vspace{-0.15in}
 \end{figure}
 
